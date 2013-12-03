@@ -1,0 +1,59 @@
+# Additional translations at https://github.com/plataformatec/devise/wiki/I18n
+
+zh-CN:
+  devise:
+    confirmations:
+      confirmed: "你的帐户成功激活，现在是登录状态"
+      send_instructions: "稍后你将收到帐号激活的电子邮件"
+      send_paranoid_instructions: "如果您的邮箱存在于我们的数据库中，您将收到一封找回密码的邮件"
+    failure:
+      already_authenticated: "您已经登录"
+      inactive: "您还没有激活帐户"
+      invalid: "邮箱或密码错误"
+      invalid_token: "认证码无效"
+      locked: "您的帐户已经锁定"
+      not_found_in_database: "邮箱或密码错误"
+      timeout: "您已登录超时，请重新登录"
+      unauthenticated: "继续操作前请注册或者登录"
+      unconfirmed: "继续操作前请先激活您的帐号"
+    mailer:
+      confirmation_instructions:
+        subject: "激活指引"
+      reset_password_instructions:
+        subject: "重置密码指引"
+      unlock_instructions:
+        subject: "帐户解锁指引"
+    omniauth_callbacks:
+      failure: "因为 %{reason}，所以您无法从 %{kind} 获得授权"
+      success: "成功地从 %{kind} 获得授权"
+    passwords:
+      no_token: "您似乎不是从一封密码重置邮件来访问这个页面的。如果您确实收到一封密码重置邮件，请确保使用了完整的链接地址。"
+      send_instructions: "稍后你将收到帐号激活的电子邮件"
+      send_paranoid_instructions: "如果您的邮箱存在于我们的数据库中，您将收到一封解锁账号的邮件"
+      updated: "您的密码已修改成功！"
+      updated_not_active: "您的密码已修改成功"
+    registrations:
+      destroyed: "再见！您的帐户已成功注销。我们希望很快可以再见到您"
+      signed_up: "欢迎您！您已注册成功！"
+      signed_up_but_inactive: "虽然您已经注册成功，但因为你的帐号还未激活，所以你暂时无法登录"
+      signed_up_but_locked: "虽然您已经注册成功，但因为你的帐号已被锁定，所以你暂时无法登录"
+      signed_up_but_unconfirmed: "带有激活链接的信息已经发送到你的邮箱。请打开此链接来激活你的帐号"
+      update_needs_confirmation: "您更改了邮箱地址，我们需要验证您的新邮箱地址，请查看您的邮箱，点击激活链接来验证您的新邮箱地址"
+      updated: "您的帐户信息已修改成功！"
+    sessions:
+      signed_in: "登录成功！"
+      signed_out: "注销成功！"
+    unlocks:
+      send_instructions: "稍后您将收到帐号激活的电子邮件"
+      send_paranoid_instructions: "如果您的邮箱存在于我们的数据库中，稍后您会收到一封解锁账号的邮件"
+      unlocked: "您的帐号已成功解锁，现在可以登录到系统"
+  errors:
+    messages:
+      already_confirmed: "已经激活，请重新登录"
+      confirmation_period_expired: "激活操作必需在 %{period}之前, 您需要提交一份新的申请了"
+      expired: "已经过期，请重新提交一份申请"
+      not_found: "没有找到"
+      not_locked: "未锁定"
+      not_saved:
+        one: "因为 1 个错误导致此 %{resource}保存失败:"
+        other: "因为 %{count}个错误导致此 %{resource}保存失败:"

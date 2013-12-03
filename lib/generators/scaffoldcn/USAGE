@@ -1,0 +1,15 @@
+Description:
+    Translate the scaffold templates to zh_CN.
+
+Example:
+    rails g scaffoldcn
+
+    This will create:
+        lib/templates/erb/scaffold/_form.html.erb
+        lib/templates/erb/scaffold/edit.html.erb
+        lib/templates/erb/scaffold/index.html.erb
+        lib/templates/erb/scaffold/new.html.erb
+        lib/templates/erb/scaffold/show.html.erb
+
+        config/locales/model.yml
+        config/locales/zh-CN.yml

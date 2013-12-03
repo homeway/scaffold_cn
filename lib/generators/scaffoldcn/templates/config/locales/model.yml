@@ -1,0 +1,9 @@
+en:
+  activerecord:
+    models:
+      relation: '联系人'
+    attributes:
+      relation:
+        name: "联系人姓名"
+        tel: "电话"
+
