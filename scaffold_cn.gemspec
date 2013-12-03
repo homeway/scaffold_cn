@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = ScaffoldCn::VERSION
   s.authors     = ["homeway"]
   s.email       = ["homeway.xue@gmail.com"]
-  s.homepage    = ""
+  s.homepage    = "https://github.com/homeway/scaffold_cn"
   s.summary     = "You can easily include the gem to get scaffold for zh_CN."
   s.description = "You can easily include the gem to get scaffold for zh_CN."
 

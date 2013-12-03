@@ -1,4 +1,4 @@
-= 为 Ruby On Rails 提供更简单的中文支持
+#为 Ruby On Rails 提供更简单的中文支持
 
 在`ruby on rails`开发中，打开`config/application.rb`中的注释，就可以使用中文的I18n翻译功能了。
 
@@ -32,8 +32,20 @@
 ```
 大功告成！
 
-之后，您就可以像往常一样使用`rails g scaffold`命令了。
+之后就可以像往常一样使用`rails g scaffold`命令了。
 
-每次添加新的数据模型，您只需要在`config/locales/model.yml`中将表名称和字段名称翻译成中文，就可以完成页面的中文翻译了。
+每次添加新的数据模型，只需要在`config/locales/model.yml`中将表名称和字段名称翻译成中文，就可以完成页面的中文翻译了。
+
+例如：
+```
+zh-CN:
+  activerecord:
+    models:
+      relation: '联系人'
+    attributes:
+      relation:
+        name: "联系人姓名"
+        tel: "电话"
+```
 
 This project rocks and uses MIT-LICENSE.
