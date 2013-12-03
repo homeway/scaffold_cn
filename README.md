@@ -17,18 +17,18 @@
 
 然后执行下面的动作
 ```
-    rails g scaffoldcn
+    rails g scaffold_cn
 ```
 会得到这样的操作提示：
 ```
-    $ rails g scaffoldcn
+    $ rails g scaffold_cn
           create  lib/templates/erb/scaffold/_form.html.erb
           create  lib/templates/erb/scaffold/edit.html.erb
           create  lib/templates/erb/scaffold/index.html.erb
           create  lib/templates/erb/scaffold/new.html.erb
           create  lib/templates/erb/scaffold/show.html.erb
-          create  config/locales/model.yml
-          create  config/locales/zh-CN.yml
+          create  config/locales/model.zh_CN.yml
+          create  config/locales/default.zh_CN.yml
 ```
 大功告成！
 
@@ -38,7 +38,7 @@
 
 例如：
 ```
-zh-CN:
+zh_CN:
   activerecord:
     models:
       relation: '联系人'
