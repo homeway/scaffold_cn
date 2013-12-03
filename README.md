@@ -17,7 +17,7 @@
 
 然后执行下面的动作
 ```
-    rails g scaffold_cn
+    rails g scaffoldcn
 ```
 会得到这样的操作提示：
 ```
