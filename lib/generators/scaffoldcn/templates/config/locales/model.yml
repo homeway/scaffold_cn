@@ -1,4 +1,7 @@
-en:
+# 请按照下面的范例建立model的中文翻译
+# 其中: models域下面映射了数据库表的中文名称
+#      attribuites域映射了各个表字段的中文名称
+zh-CN:
   activerecord:
     models:
       relation: '联系人'
