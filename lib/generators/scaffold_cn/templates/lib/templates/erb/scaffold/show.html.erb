@@ -7,5 +7,5 @@
 </p>
 
 <% end -%>
-<%%= link_to '编辑', edit_<%= singular_table_name %>_path(@<%= singular_table_name %>) %> |
-<%%= link_to '返回', <%= index_helper %>_path %>
+<%%= link_to t(:edit), edit_<%= singular_table_name %>_path(@<%= singular_table_name %>) %> |
+<%%= link_to t(:back), <%= index_helper %>_path %>

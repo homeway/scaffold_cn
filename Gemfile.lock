@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    scaffold_cn (0.1.1)
+    scaffold_cn (0.1.2)
       rails (~> 4.0.0)
 
 GEM

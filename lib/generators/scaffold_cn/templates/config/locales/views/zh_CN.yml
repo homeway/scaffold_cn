@@ -1,0 +1,9 @@
+zh_CN:
+  submit: '提交'
+  index: '列表'
+  show: '显示'
+  new: '新建'
+  edit: '编辑'
+  delete: '删除'
+  confirm_delete: '确定删除吗?'
+  back: '返回'

@@ -2,7 +2,7 @@ Description:
     Translate the scaffold templates to zh_CN.
 
 Example:
-    rails g scaffoldcn
+    rails g scaffold_cn
 
     This will create:
         lib/templates/erb/scaffold/_form.html.erb
