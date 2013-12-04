@@ -27,7 +27,8 @@ $ rails g scaffold_cn erb
       create  config/locales/defaults.zh_CN.yml
       ...
 ```
-**第三步** 像往常一样使用`rails g scaffold`命令
+**第三步** 像往常一样使用`rails g scaffold`命令。
+
 至此，所获得的CRUD页面，就都是中文页面了！
 
 ##数据模型的中文化
